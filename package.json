@@ -1,0 +1,23 @@
+{
+	"name": "facedetection",
+	"version": "1.0.0",
+	"description": "Facedetection Example of Wes Bos's Javascript Course",
+	"main": "pixelated-face.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "parcel face.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alperalin/facedetection.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/alperalin/facedetection/issues"
+	},
+	"homepage": "https://github.com/alperalin/facedetection#readme",
+	"devDependencies": {
+		"parcel": "^2.0.1"
+	}
+}

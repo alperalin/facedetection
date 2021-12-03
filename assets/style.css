@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: aqua;
+	padding: 0;
+	margin: 0;
+}
+
+.wrap {
+	position: relative;
+	min-height: 70vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrap > * {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.face {
+	position: absolute;
+}
+
+.controls {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.controls label {
+	display: block;
+	margin: 15px 0;
+}

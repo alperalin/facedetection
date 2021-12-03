@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Face Detection App</title>
+</head>
+
+<body>
+    <div class="controls">
+        <label for="SCALE">
+            SCALE THE CENSOR: <br />
+            <input type="range" value="1.35" name="SCALE" min="0.3" max="3" step="0.1">
+        </label>
+        <label for="SIZE">
+            CHANGE SIZE: <br />
+            <input type="range" value="10" name="SIZE" min="1" max="100" step="1">
+        </label>
+    </div>
+    <div class="wrap">
+        <video class="webcam"></video>
+        <canvas class="video"></canvas>
+        <canvas class="face"></canvas>
+    </div>
+
+
+    <script src="./assets/pixelated-face.js"></script>
+</body>
+
+</html>
